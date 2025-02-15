@@ -1,0 +1,406 @@
+[    
+    {
+        "id": 1, 
+        "name" :{
+            "es":"Comercial",
+            "en":"Commercial"
+        },
+        "frontPage": "/frontPage/Comercial.png",
+        "projects": [
+            {
+                "idProject": 101,
+                "name" : "Korean Grill",
+                "description" : {
+                    "construccion": "150 M2",
+                    "descriptionProject": {
+                        "es": "Proyecto Conceptual",
+                        "en": "Conceptual Project"
+                    }                  
+                },
+                "frontPageDetails" : "/comercialImg/coreanImg/coreano1.jpg",
+                "imagesCarousel" : [
+                    "/comercialImg/coreanImg/coreano1.jpg",
+                    "/comercialImg/coreanImg/coreano2.jpg",
+                    "/comercialImg/coreanImg/coreano3.jpg",
+                    "/comercialImg/coreanImg/coreano4.jpg",
+                    "/comercialImg/coreanImg/coreano5.jpg",
+                    "/comercialImg/coreanImg/coreano6.jpg",
+                    "/comercialImg/coreanImg/coreano7.jpg",
+                    "/comercialImg/coreanImg/coreano8.jpg",
+                    "/comercialImg/coreanImg/coreano9.jpg",
+                    "/comercialImg/coreanImg/coreano10.jpg",
+                    "/comercialImg/coreanImg/coreano11.jpg"
+                ]
+            },
+            {
+                "idProject": 102,
+                "name" : "Paradise",
+                "description" : {
+                    "construccion": "20 M2",
+                    "descriptionProject" :{
+                        "es": "Intervención tipo RETAIL para la comercialización de productos que maneja la marca PARADISE.Se buscó en un local muy pequeño conjugar mobiliario e imagen de la marca con el gusto personal del cliente. Al tener un presupuesto limitado se buscó reutilizar materiales existentes dándoles toques de iluminación que lo hicieran sentir más acogedores.La paleta de material utiliza: fachaleta, porcelanato gris, carpintería enchapada imitación roble y detalles de iluminación."
+
+                    }
+                },
+                "frontPageDetails" : "/comercialImg/paradiseImg/paradise1.jpg",
+                "imagesCarousel" : [
+                    "/comercialImg/paradiseImg/paradise1.jpg",
+                    "/comercialImg/paradiseImg/paradise2.jpg",
+                    "/comercialImg/paradiseImg/paradise3.jpg",
+                    "/comercialImg/paradiseImg/paradise4.jpg"
+                ]
+            },
+            {
+                "idProject": 103,
+                "name" : "Salon Eureka",
+                "description" : {
+                    "construccion" :"450 M2",
+                    "descriptionProject":"Salón Eureka representa un proyecto que conjuga rehabilitación del espacio, reestructuración y rediseño de un espacio resultado del autoconstrucción durante décadas Los mayores retos de este proyecto fue reestructurar el espacio sin tener que demoler y al mismo tiempo lograr mantener el área libre para que el salón de fiestas pudiera tener un óptimo uso por parte de los clientes. Al ser un salón para fiestas infantiles la idea fue crear un espacio que se prestara para diferentes montajes de acuerdo al festejo, pero teniendo una identidad propia, por lo cual se buscó una gama de colores pasteles para adornar el techo generando una sensación de profundidad y de vacío. Los muros y piso blanco generan un espacio limpio que da una sensación de amplitud e invita a disfrutar del festejo.La paleta de materiales utiliza: ónix, concreto pulido con color, acero estructural aparente, loseta imitación madera, y pasto sintético.El resultado es un salón de fiestas infantiles que te invita a llegar, disfrutar y no quererte ir"
+                },
+                "frontPageDetails" : "/comercialImg/eurekaImg/eureka1.jpg",
+                "imagesCarousel" : [
+                    "/comercialImg/eurekaImg/eureka1.jpg",
+                    "/comercialImg/eurekaImg/eureka2.jpg",
+                    "/comercialImg/eurekaImg/eureka3.jpg",
+                    "/comercialImg/eurekaImg/eureka4.jpg",
+                    "/comercialImg/eurekaImg/eureka5.jpg",
+                    "/comercialImg/eurekaImg/eureka6.jpg"
+                ]
+            },
+            {
+                "idProject": 104,
+                "name" : "Terraza,bar, grill",
+                "description" : {
+                    "construccion": "350 M2",
+                    "descriptionProject" :"Proyecto Conceptual"
+                },  
+                "frontPageDetails" : "/comercialImg/rooftopImg/terraza1.jpg",
+                "imagesCarousel" : [
+                    "/comercialImg/rooftopImg/terraza1.jpg",
+                    "/comercialImg/rooftopImg/terraza2.jpg",
+                    "/comercialImg/rooftopImg/terraza3.jpg",
+                    "/comercialImg/rooftopImg/terraza4.jpg",
+                    "/comercialImg/rooftopImg/terraza5.jpg",
+                    "/comercialImg/rooftopImg/terraza6.jpg",
+                    "/comercialImg/rooftopImg/terraza7.jpg",
+                    "/comercialImg/rooftopImg/terraza8.jpg",
+                    "/comercialImg/rooftopImg/terraza9.jpg"
+                ]
+            }
+        ] 
+    },
+    {
+        "id": 2, 
+        "name" :"Corporativo",       
+        "frontPage": "./frontPage/Coorporativo.png",
+        "projects" : [
+            {
+                "idProject": 201,
+                "name" : "Oficinas HM",
+                "description": {
+                    "construccion": "250 M2",
+                    "descriptionProject": "Este proyecto es el resultado de la necesidad de mudar oficina de una inmobiliaria dentro de la misma torre, buscando reutilizar mobiliario, canceles y puertas; además se solicitaron espacios nuevos por el incremento del personal.La solución que se dio a estas necesidades fue crear un espacio de coworking central, manteniendo las salas de juntas y directivos en el perímetro, dándoles las mejores vistas que podría ofrecer el local. Las áreas operativas de SITE, bodegas quedaron ligadas a la zona central del edificio; sin embargo, las zonas de empleados como comedor y cocina tuvieron una consideración importante al dotarlas de una vista privilegiada y luz natural.La paleta de material utiliza: concreto pulido, alfombra, piso laminado, cancelería de aluminio y puertas de cristal templado.El resultado es una oficina transparente, funcional y al mismo tiempo elegante para mantener la imagen formal y corporativa de la inmobiliaria."                    },
+                "frontPageDetails" : "/corporativoImg/oficinasHm/hm1.jpg",
+                "imagesCarousel" :[
+                    "/corporativoImg/oficinasHm/hm1.jpg",
+                    "/corporativoImg/oficinasHm/hm2.jpg",
+                    "/corporativoImg/oficinasHm/hm3.jpg",
+                    "/corporativoImg/oficinasHm/hm4.jpg",
+                    "/corporativoImg/oficinasHm/hm5.jpg",
+                    "/corporativoImg/oficinasHm/hm6.jpg"
+                ]
+            },
+            {
+                "idProject": 202,
+                "name" : "Oficinas PCA",
+                "description": {
+                    "construccion": "100 M2",
+                    "descriptionProject": "Oficinas PCA fue una intervención para darle un cambio integral a las oficinas de una empresa de seguros. La imagen que manejaban hasta ese momento ya no correspondía con las ideas de la marca.Se planteó la eliminación de espacios “semi-privados” (que daban la impresión de “caballerizas”) resolviendo con un espacio abierto de coworking para poder integrar más a los trabajadores de las oficinas.La paleta de materiales utiliza: porcelanato de gran formato, mobiliario corporativo a la medida."
+                },
+                "frontPageDetails" : "/corporativoImg/oficinasPca/pca1.jpg",
+                "imagesCarousel" :[
+                    "/corporativoImg/oficinasPca/pca1.jpg",
+                    "/corporativoImg/oficinasPca/pca2.jpg",
+                    "/corporativoImg/oficinasPca/pca3.jpg",
+                    "/corporativoImg/oficinasPca/pca4.jpg",
+                    "/corporativoImg/oficinasPca/pca5.jpg",
+                    "/corporativoImg/oficinasPca/pca6.jpg",
+                    "/corporativoImg/oficinasPca/pca7.jpg"
+                ]
+            }
+        ]  
+    },
+    {
+        "id": 3, 
+        "name" :"Mantenimiento",
+        "frontPage": "./frontPage/Mantenimiento.png" ,
+        "projects" : [
+            {
+                "idProject": 301,
+                "name" : "Adolfo Prieto 710",
+                "description": {
+                    "construccion": "1500 M2 ",
+                    "descriptionProject":"Mantenimiento de fachadas"         
+                },
+                "frontPageDetails" : "/mantenimientoImg/adolfoPrieto/adolfo1.jpg",
+                "imagesCarousel" :[
+                    "/mantenimientoImg/adolfoPrieto/adolfo1.jpg",
+                    "/mantenimientoImg/adolfoPrieto/adolfo2.jpg",
+                    "/mantenimientoImg/adolfoPrieto/adolfo3.jpg",
+                    "/mantenimientoImg/adolfoPrieto/adolfo4.jpg"
+                ]
+            },
+            {
+                "idProject": 302,
+                "name" : "Gabriel Mancera",
+                "description": {
+                    "construccion": "500 M2",
+                    "descriptionProject":"Mantenimiento de fachadas"
+                },
+                "frontPageDetails" : "/mantenimientoImg/gabrielMancera/gabriel1.jpg",
+                "imagesCarousel" :[
+                    "/mantenimientoImg/gabrielMancera/gabriel1.jpg",
+                    "/mantenimientoImg/gabrielMancera/gabriel2.jpg",
+                    "/mantenimientoImg/gabrielMancera/gabriel3.jpg",
+                    "/mantenimientoImg/gabrielMancera/gabriel4.jpg"
+                ]
+            },
+            {
+                "idProject": 303,
+                "name" : "Villa Florence",
+                "description": {
+                    "construccion": "3,450 M2",
+                    "descriptionProject":"Mantenimiento de fachadas"
+                },
+                "frontPageDetails" : "/mantenimientoImg/VillaFlorence/villa1.jpg",
+                "imagesCarousel" :[
+                    "/mantenimientoImg/VillaFlorence/villa1.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa2.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa3.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa4.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa5.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa6.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa7.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa8.jpg",
+                    "/mantenimientoImg/VillaFlorence/villa9.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4, 
+        "name" :"Residencial",  
+        "frontPage": "./frontPage/Residencial.png",
+        "projects":[
+            {
+                "idProject": 401,
+                "name" : "Casa C",
+                "description": {
+                    "construccion": "450 M2 ",
+                    "descriptionProject":"Casa C fue una intervención integral en una vivienda existente. Se rediseño por completo la zona existente y se agregó una sección nueva a la casa. Las condicionantes del terreno nos obligaron a resolver la distribución con grandes pasillos que a su vez fueron aprovechados para volverlos los protagonistas del diseño. La paleta de materiales utiliza: mármol calacatta, granito gris Oxford flameado-cepillado, pisos de ingeniería, cristales acústicos, carpinterías de encino, nogal y parota. Un desafío importante fue la modificación estructural que consistió en usar unos “columpios” para transferir la carga del piso 1 a la azotea para posteriormente bajarla por los muros laterales."
+                },
+                "frontPageDetails" : "/residencialImg/casaC/casaC1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/casaC/casaC1.jpg",
+                    "/residencialImg/casaC/casaC2.jpg",
+                    "/residencialImg/casaC/casaC3.jpg",
+                    "/residencialImg/casaC/casaC4.jpg",
+                    "/residencialImg/casaC/casaC5.jpg",
+                    "/residencialImg/casaC/casaC6.jpg",
+                    "/residencialImg/casaC/casaC7.jpg",
+                    "/residencialImg/casaC/casaC8.jpg",
+                    "/residencialImg/casaC/casaC9.jpg",
+                    "/residencialImg/casaC/casaC10.jpg"
+                ]
+            },
+            {
+                "idProject": 402,
+                "name" : "Casas Mellizas Ca",
+                "description": {
+                    "construccion": "750 M2",
+                    "descriptionProject":"Casas Mellizas es un proyecto con alto nivel de complejidad, ya que fue el apropiarnos de un proyecto y obra de otro despacho, para resolverlo, replantearlo y lograr sacarle su mayor potencial.El proyecto consiste en 2 casas casi idénticas que son colindantes, sin embargo, al ser de 2 clientes con necesidades particulares tiene importantes diferencias tanto en funcionamiento como en áreas. Una gran diferencia es la utilización de la “azotea”; mientras una de ellas la deja como tal, la otra la vuelve una terraza - bar a la que se accede mediante una escalera escultórica dentro de un cubo de cristal transparente.La paleta de materiales utiliza: granito grisal, grandes ventanales, estructura metálica aparente, accesorios de baño negros y porcelanatos imitación mármol y granito.El resultado son 2 casas minimalistas con gran privacidad y vistas privilegiadas hacia la cañada."
+                },
+                "frontPageDetails" : "/residencialImg/casaMellizasCa/casaMellizaCa1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/casaMellizasCa/casaMellizaCa1.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa2.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa3.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa4.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa5.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa6.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa7.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa8.jpg",
+                    "/residencialImg/casaMellizasCa/casaMellizaCa9.jpg"
+                ]
+            },
+            {
+                "idProject": 403,
+                "name" : "Casa Terracota",
+                "description": {
+                    "construccion": "180 M2",
+                    "descriptionProject":"Casa Terracota fue un proyecto de vivienda unifamiliar que sería construido en HACIENDA REAL 1800 en Huichapan, Hidalgo.El concepto fue la integración con el entorno, adoptando los materiales característicos de construcción de la región: ladrillo, piedra, concreto y tierra.La vivienda se dividió en 2 niveles integrando los espacios públicos con los privados mediante una doble altura que permitía la separación sin aislar mediante pasillos u otros elementos físicos. La paleta de materiales utiliza: ladrillo, piedra braza, granito negro san Gabriel, concreto aparente, acero y carpinterías de encino.La característica principal de este diseño fue el desarrollo de fachadas de acuerdo a la orientación de cada una."
+                },
+                "frontPageDetails" : "/residencialImg/casaTerracota/casaTerracota1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/casaTerracota/casaTerracota1.jpg",
+                    "/residencialImg/casaTerracota/casaTerracota2.jpg",
+                    "/residencialImg/casaTerracota/casaTerracota3.jpg",
+                    "/residencialImg/casaTerracota/casaTerracota4.jpg",
+                    "/residencialImg/casaTerracota/casaTerracota5.jpg",
+                    "/residencialImg/casaTerracota/casaTerracota6.jpg"
+                ]
+            },
+            {
+                "idProject": 404,
+                "name" : "Depto LS",
+                "description": {
+                    "construccion": "100 M2",
+                    "descriptionProject": "Departamento LS es el resultado de reacondicionar – reutilizando un departamento de los años 70s. El concepto fue la potencialización del espacio. Las zonas públicas se replantearon con una idea de integración monolítica, mientras que las zonas privadas de volvieron más acogedoras. Cuando se iniciaron las demoliciones nos encontramos con una losa ecasetonada de concreto, la cual decidimos volverla protagonista del proyecto y la iluminación se adaptó a reutilizar estos espacios “vacíos” dando como resultado una sensación de volumetría integrada todo el tiempo. La paleta de materiales utiliza: mármol polaris, granito Antique Brown, cuarzo blanco, porceleantos imitación mármol de carrara y terrazo además de carpinterías de encino.La cocina y el bar se volvieron los grandes protagonistas de este diseño, siendo los espacios que albergan a los usuarios de una manera acogedora y funcional"
+                },
+                "frontPageDetails" : "/residencialImg/deptoLs/deptoLs1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/deptoLs/deptoLs1.jpg",
+                    "/residencialImg/deptoLs/deptoLs2.jpg",
+                    "/residencialImg/deptoLs/deptoLs3.jpg",
+                    "/residencialImg/deptoLs/deptoLs4.jpg",
+                    "/residencialImg/deptoLs/deptoLs5.jpg",
+                    "/residencialImg/deptoLs/deptoLs6.jpg",
+                    "/residencialImg/deptoLs/deptoLs7.jpg",
+                    "/residencialImg/deptoLs/deptoLs8.jpg"
+                ]
+            },
+            {
+                "idProject": 405,
+                "name" : "Depto Soleto",
+                "description": {
+                    "construccion": "100 M2",
+                    "descriptionProject":"Departamento Sotelo es el resultado de estudiar minuciosamente el re aprovechamiento de un departamento de los años 80s en planta baja. Las condicionantes fueron la complejidad de crear un espacio totalmente nuevo sin afectar la estructura de todo el edificio, así que basados en los resultados de un estudio estructural, se tomó la decisión de hacer cambios que reforzaran la estructura, pero al mismo tiempo estos quedaran dentro del diseño de mobiliario fijo, con la intención que el departamento se sienta más acogedor aprovechando con estos cambios también la luz natural que podría ingresar al espacio.La paleta de materiales utiliza: cristales acústicos, mármol calacatta / tazos, cuarzo blanco, carpintería de encino y nogal.El resultado es un proyecto acogedor, moderno y que potencializa el espacio ya existente, dándole al usuario una experiencia completamente nueva en un departamento con 40 años de existencia. "
+                },
+                "frontPageDetails" : "/residencialImg/deptoSoleto/deptoSoleto1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/deptoSoleto/deptoSoleto1.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto2.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto3.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto4.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto5.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto6.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto7.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto8.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto9.jpg",
+                    "/residencialImg/deptoSoleto/deptoSoleto10.jpg"
+                ]
+            },
+            {
+                "idProject": 406,
+                "name" : "Desarrollo Travertino",
+                "description": {
+                    "construccion": "4,500 M2",
+                    "descriptionProject":"Desarrollo Travertino es el resultado al cuestionamiento de cómo mejorar la vivienda plurifamiliar en una colonia de gran tradición en la Ciudad de México: La Escandón.Una de las premisas más importantes para la imagen del edificio es la atemporalidad de sus fachadas, por lo cual la propuesta volumétrica y de materiales permite transparencia y evita el uso de materiales de moda.Los materiales propuestos son acero estructural, cristal templado y el más importante de todos: Mármol Travertino.Los departamentos al mismo tiempo tendrán la versatilidad de poder integrar las terrazas exteriores a sus espacios interiores, permitiendo el aprovechamiento de todos los m2 construibles y dando opción al usuario de configurar los espacios a cada estilo de vida"
+                },
+                "frontPageDetails" : "/residencialImg/desarrolloTravertino/desarrolloTra1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/desarrolloTravertino/desarrolloTra1.jpg",
+                    "/residencialImg/desarrolloTravertino/desarrolloTra2.jpg",
+                    "/residencialImg/desarrolloTravertino/desarrolloTra3.jpg",
+                    "/residencialImg/desarrolloTravertino/desarrolloTra4.jpg"
+                ]
+            },
+            {
+                "idProject": 407,
+                "name" : "Terraza F",
+                "description": {
+                    "construccion": "1000 M2",
+                    "descriptionProject":"Terraza F es un proyecto que plantea una terraza exterior, pero que al mismo tiempo tenga el confort de estar al interior de la casa.El diseño responde a la integración de un asador, sala, comedor y espacio para una chimenea. Se buscó que este espacio nuevo contrastara completamente con la casa existente (que tiene 25 años aproximadamente) pero al mismo tiempo integrara de una manera acogedora el espacio de asador – terraza –alberca.La paleta de materiales utiliza: mármol travertino, granito Antique Brown, placa de acero aparente, perfiles IPR 10” x 10”, techumbre de cristal y celosía con vigas de Oyamel.Este proyecto presento un reto en ecotecnias ya que uno de los retos fue diseñar un sistema de captación pluvial que pase 100% desapercibido visualmente y volumétricamente; para esto se aprovechó el tamaño de los perfiles IPR para contener dentro de ella “canales” para el llevar al agua a un depósito de 10,000 litros que está enterrado debajo del jardín (esta agua se aprovecha en épocas de lluvias en el funcionamiento de la casa).El resultado de este proyecto fue una extensión a la casa que contrasta, se integra y al mismo tiempo invita a estar todo el día en esta parte de la casa."
+                },
+                "frontPageDetails" : "/residencialImg/terrazaF/terrazaF1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/terrazaF/terrazaF1.jpg",
+                    "/residencialImg/terrazaF/terrazaF2.jpg",
+                    "/residencialImg/terrazaF/terrazaF3.jpg",
+                    "/residencialImg/terrazaF/terrazaF4.jpg",
+                    "/residencialImg/terrazaF/terrazaF5.jpg",
+                    "/residencialImg/terrazaF/terrazaF6.jpg",
+                    "/residencialImg/terrazaF/terrazaF7.jpg",
+                    "/residencialImg/terrazaF/terrazaF8.jpg",
+                    "/residencialImg/terrazaF/terrazaF9.jpg",
+                    "/residencialImg/terrazaF/terrazaF10.jpg"
+                ]
+            },
+            {
+                "idProject": 408,
+                "name" : "Terraza Pilares",
+                "description": {
+                    "construccion": "80 M2",
+                    "descriptionProject":"Terraza Pilares fue la adaptación de la terraza de un pent-house de los 70s en la colonia del Valle. La finalidad del proyecto era quitarle su apariencia de jaula de tendido y abrir la visibilidad privilegiada que podría tener desde un piso 9. Al ser un proyecto de bajo costo, se planteó reutilizar parte de la estructura existente, pero logrando la sensación de transparencia. La paleta de materiales utiliza: ptr / metal desplegado, vegetación falsa, piso cerámico imitación madera y detalles de iluminación.El resultado fue una terraza panorámica, acogedora y con múltiples opciones de uso."
+                },
+                "frontPageDetails" : "/residencialImg/terrazaPilares/terrazaPilates1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/terrazaPilares/terrazaPilates1.jpg",
+                    "/residencialImg/terrazaPilares/terrazaPilates2.jpg",
+                    "/residencialImg/terrazaPilares/terrazaPilates3.jpg"
+                ]
+            },
+            {
+                "idProject": 409,
+                "name" : "terraza Estudio JE",
+                "description": {
+                    "construccion": "80 M2",
+                    "descriptionProject":"Terraza Estudio JE responde a la necesidad de integrar un pent-house con su terraza privada; que, a pesar de colindar, no tienen una interconexión. Para generar una circulación entre el departamento y la terraza se planteó colocar una escalera de caracol escultórica que nos llevara del comedor a un family – estudio que a su vez funcionaria como vestíbulo para acceder a la terraza – asador.Las limitantes por reglamento de construcción en este proyecto es el tipo de cubierta que se puede utilizar el cuarto nuevo en la azotea; así que se usó un panel ligero con cualidades acústicas y térmicas, además de optimizar el espacio existente delimitado por una estructura metálica ya existente para techar el área del asador.La paleta de materiales utiliza: acero estructural, panel acústico / térmico, cerámica imitación madera, policarbonato, detalles de carpintería en oyamel y cubiertas de granito san Gabriel matizado.El resultado de este proceso de diseño con varias limitantes fue un proyecto que integra de manera acogedora en un solo inmueble 2 espacios áreas que no tenían el mismo lenguaje arquitectónico."
+                },
+                "frontPageDetails" : "/residencialImg/terrazaJe/terrazaJe1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/terrazaJe/terrazaJe1.jpg",
+                    "/residencialImg/terrazaJe/terrazaJe2.jpg",
+                    "/residencialImg/terrazaJe/terrazaJe3.jpg",
+                    "/residencialImg/terrazaJe/terrazaJe4.jpg",
+                    "/residencialImg/terrazaJe/terrazaJe5.jpg",
+                    "/residencialImg/terrazaJe/terrazaJe6.jpg"
+                ]
+            }
+        ]  
+    },
+    {
+        "id": 5, 
+        "name" :"Salud",     
+        "frontPage": "./frontPage/Salud.png",
+        "projects": [
+            {
+                "idProject": 501,
+                "name" : "Centro Maena",
+                "description": {
+                    "construccion": "90 M2",
+                    "descriptionProject":"Centro Maena es una clínica enfocada en fisioterapia y neurorehabilitación que buscaba generar un espacio más acogedor, creando una experiencia diferente en el usuario que va en busca de sentirse mejor.Se planteó la utilización de materiales y colores cálidos, que, al mezclarse con una iluminación cálida, generara un espacio donde el paciente se sienta cómodo y listo para comenzar un camino se sanación.La paleta de materiales utiliza: Mobiliario diseñado con madera de pino terminado, detalles en plafones y detalles de iluminación.El resultado es una clínica DIFERENTE a la competencia, donde desde el acceso te sientes en un lugar acogedor y profesional."
+                },
+                "frontPageDetails" : "/saludImg/maena/maena1.jpg",
+                "imagesCarousel" :[
+                    "/saludImg/maena/maena1.jpg",
+                    "/saludImg/maena/maena2.jpg",
+                    "/saludImg/maena/maena3.jpg",
+                    "/saludImg/maena/maena4.jpg",
+                    "/saludImg/maena/maena5.jpg",
+                    "/saludImg/maena/maena6.jpg"
+                ]                
+            },
+            {
+                "idProject": 502,
+                "name" : "Centro Balan-C",
+                "description": {
+                    "construccion": "150 M2",
+                    "descriptionProject":"Esta clínica de rehabilitación buscaba unir el servicio de ELECTRO-FITNESS para poder darle a sus usuarios un espacio para entrenar y al mismo tiempo tratar lesiones."
+                },
+                "frontPageDetails" : "/saludImg/balanC/balanC1.jpg",
+                "imagesCarousel" :[
+                    "/saludImg/balanC/balanC1.jpg",
+                    "/saludImg/balanC/balanC2.jpg",
+                    "/saludImg/balanC/balanC3.jpg",
+                    "/saludImg/balanC/balanC4.jpg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6, 
+        "name" :"Ingenierias de la Construccion",
+        "frontPage": "./frontPage/Ingeniería.png"  
+    }
+]

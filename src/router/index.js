@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import usView from '@/views/usView.vue'
 import contact from '@/views/contact.vue'
-import proyects from '@/views/proyectsMainView.vue'
-import proyectsDetails from '@/views/proyectView.vue'
+import proyects from '@/views/projectsMainView.vue'
+import proyectsDetails from '@/views/projectView.vue'
+
 
 
 const router = createRouter({
@@ -34,7 +35,7 @@ const router = createRouter({
       name: 'proyect',
       component: proyectsDetails,
       props: true
-    }
+    },
   ],
 })
 

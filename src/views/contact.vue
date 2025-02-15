@@ -1,13 +1,10 @@
 <template>
     <div class="contactMainBox">
-        <div class="navBarCotainer">
-            <navBar />
-        </div>
         <div class="itemsContactBox">
             <div class="leftItems">
                 <div class="topInformationContact">
-                    <p class="contactParagraph">Contacto</p>
-                    <p class="sendUsParagraph">Envianos un mensaje y nos pondremos en contacto.</p>
+                    <p class="contactParagraph">{{ $t('contact.title') }}</p>
+                    <p class="sendUsParagraph">{{ $t('contact.phrase1') }}</p>
                 </div>
                 <div class="mapsBox">
                     <maps />
@@ -20,40 +17,40 @@
                         size="38"
                     >
                     </svg-icon>
-                    <p>Periferico 1661, torre A12 int 1001, Lomas de Plateros, 01490 Ciudad de Mexico</p>
+                    <p>{{ $t('contact.location') }}</p>
                 </div>
             </div>
             <div class="rigthItems">
                 <form @submit.prevent="sendEmail" class="formBox">
-                    <label for="name">Nombre</label>
+                    <label for="name">{{ $t('contact.name') }}</label>
                     <input 
                         type="text"
                         v-model = 'formData.name'
-                        placeholder="Nombre"
+                        :placeholder="$t('contact.name')"
                         required
                     >
-                    <label for="e-mail">Email</label>
+                    <label for="e-mail">{{ $t('contact.email') }}</label>
                     <input 
                         type="email"
                         v-model = 'formData.email'
-                        placeholder="E-mail"
+                        :placeholder="$t('contact.email')"
                         required
                     >
-                    <label for="phone">Telefono</label>
+                    <label for="phone">{{ $t('contact.number') }}</label>
                     <input 
                         type="tel"
                         v-model = 'formData.phone'
-                        placeholder="Telefono"
+                        :placeholder="$t('contact.number')"
                         required
                     >
-                    <label for="message">Mensaje</label>
+                    <label for="message">{{ $t('contact.message') }}</label>
                     <input 
                         v-model = 'formData.message'
-                        placeholder="Mensaje"
+                        :placeholder="$t('contact.message')"
                         required
                     >
                     <div class="buttonBox">
-                        <button class="buttonForm" type="submit">Enviar</button>
+                        <button class="buttonForm" type="submit">{{ $t('contact.button') }}</button>
                     </div>
                 </form>
             </div>
@@ -124,11 +121,8 @@ export default {
 </script>
 
 <style scoped>
-.navBarCotainer {
-    background-color: black ;
-    display: flex;
-}
 .itemsContactBox {
+    padding-top: 5%;
     display: flex;
     flex-direction: row;
 }

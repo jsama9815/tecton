@@ -1,29 +1,24 @@
 <template>
     <div class="mainBoxHome">
-        <navBar />
-        <!-- <div class="navBarBox"></div> -->
         <div class="informationBox">
-            <p class="paragraphLower">"La arquitectura</p>
-            <p class="paragraphUpper">es la voluntad de la epoca <br /> traducida a espacio"</p>
-            <p class="paragraphLower2">Mies Van Der Rohe</p>
+            <p class="paragraphLower">" {{ $t('home.phrase1') }}</p>
+            <p class="paragraphUpper">{{ $t('home.phrase2') }} <br /> {{ $t('home.phrase3') }} "</p>
+            <p class="paragraphLower2">{{ $t('home.phrase4') }}</p>
         </div>
 
     </div>
 </template>
 
 <script>
-import navBar from '@/components/navBar.vue';
 export default {
-    components: {
-        navBar
-    }
+
 }
 </script>
 
 <style scoped>
 
 .mainBoxHome{
-    background-image: url('../../public/Portada.png');
+    background-image: url('/Portada.png');
     height: 100vh;
     background-size: cover;
     background-position: center;

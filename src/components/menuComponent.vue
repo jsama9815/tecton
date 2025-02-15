@@ -2,12 +2,12 @@
   <div class="menuMainBox">
     <div class="menuBox">
         <ul class="menuList"> 
-            <li>Comercial</li>
-            <li>Corporativo</li>
-            <li>Mantenimiento</li>
-            <li>Residencial</li>
-            <li>Salud</li>
-            <li>Ingenierias de la construccion</li>
+            <li @click="goToProject(1)">Comercial</li>
+            <li @click="goToProject(2)">Corporativo</li>
+            <li @click="goToProject(3)">Mantenimiento</li>
+            <li @click="goToProject(4)">Residencial</li>
+            <li @click="goToProject(5)">Salud</li>
+            <li @click="goToProject(6)">Ingenierias de la construccion</li>
             <li>Intervencion Urbana</li>
         </ul>
     </div>
@@ -21,6 +21,11 @@ export default {
         type: Boolean,
         required: true
         }
+    },
+    methods: {
+        goToProject(id) {
+            this.$router.push({ name: 'proyect', params: { id } })
+        }
     }
 }
 </script>
@@ -30,20 +35,21 @@ ul {
     margin: 0;
 }
 .menuMainBox {
-    background-image: url('../../public/menu_foto.png');
+    background-image: url('/menu_foto.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(1.2);
     position: fixed; 
-    top: 10%;
+    top: 12%;
     left: 0;
     width: 100vw;
-    height: 90vh;
+    height: 88vh;
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center; 
+    
 }
 .menuBox{
     position: absolute;
@@ -62,7 +68,6 @@ li {
     font-size: 35px;
     padding-bottom: 4%;
     font-family: 'Montserrat-Light';
-    /* font-weight: 400; */
     cursor: pointer;
 }
 

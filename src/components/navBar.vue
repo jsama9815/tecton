@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'navBarMainBoxWithMenu': isMenuVisible, 'navBarMainBox': !isMenuVisible}">
+  <div class="navBarMainBox" :style="navBarStyles">
     <div class="leftBox">
         <div class="iconBox">
             <router-link to="/" >
@@ -8,14 +8,14 @@
         </div> 
         <div class="sectionsLeft">
             <router-link to="/nosotros" >
-                <p>Nosotros</p>
+                <p>{{ $t('nav.about') }}</p>
             </router-link>
             <div 
                 class="navBarMenu"  
                 @mouseover="isVisible" 
                 @mouseleave="isNotVisible"
             >
-                <p class="menuParagraph" @click="goToProyectsPage">Proyectos</p>
+                <p class="menuParagraph" @click="goToProjectsPage">{{ $t('nav.projects') }}</p>
                 <div class="menuComponentBox"
                     v-if="isMenuVisible"
                     @mouseover="onMenuMouseOver"
@@ -28,9 +28,9 @@
     </div>
     <div class="rightBox">
         <div class="sectionsRight">
-            <p>EN</p>
+            <p @click="toggleLanguage">{{ currentLanguage === 'en' ? 'Us' : 'Es' }}</p>
             <router-link to="/contact" >
-                <p>Contacto</p>
+                <p>{{ $t('nav.contact') }}</p>
             </router-link>
         </div>
     </div>
@@ -39,9 +39,23 @@
 
 <script>
 import menuComponent from './menuComponent.vue';
+import { useI18n } from 'vue-i18n';
 export default {
+    props: {
+        currentRoute: String
+    },
     components: {
         menuComponent
+    },
+    setup() {
+        const { locale } = useI18n();
+        const toggleLanguage = () => {
+            locale.value = locale.value === 'en' ? 'es' : 'en';
+        };
+        return {
+            locale,
+            toggleLanguage
+        }
     },
     data() {
         return {
@@ -49,6 +63,17 @@ export default {
             leaveTimeout: null,
         }
     },
+    computed: {
+        currentLanguage() {
+            return this.$i18n.locale; 
+        },
+        navBarStyles() {
+            return {
+                // backgroundColor: this.currentRoute === 'home' ? 'rgba(0, 0, 0, 0.4)' : 'black',
+                // backdropFilter: this.currentRoute === 'home' ? 'blur(2px)' : 'none',
+            }
+        }
+    }, 
     methods: {
         isVisible (){
             this.isMenuVisible = true;
@@ -71,29 +96,30 @@ export default {
                 clearTimeout(this.leaveTimeout); 
             }
         },
-        goToProyectsPage () {
+        goToProjectsPage () {
             this.$router.push('/proyectos');
         },
+        toggleLanguage() {
+            this.$i18n.locale = this.$i18n.locale === 'en' ? 'es' : 'en'; 
+        }
     }
 };
 </script>
 
 <style scoped>
 .navBarMainBox {
+    position: fixed;
     width: 100%;
-    height: 90px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color:black;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0, 0.2);
-}
-.navBarMainBoxWithMenu {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease-in-out;
 }
 .leftBox {
     display: flex;
@@ -124,13 +150,11 @@ export default {
 .menuParagraph {
     margin: 0; 
     position: relative; 
-    z-index: 10; 
+    /* z-index: 10;  */
 }
 .menuComponentBox {
-    position: relative;
-    z-index: 1000;
-    height: 0px; 
-    width: 0%; 
+    position: fixed;  
+    z-index: 999;
 }
 .rightBox {
     display: flex;
