@@ -1,10 +1,7 @@
 [    
     {
         "id": 1, 
-        "name" :{
-            "es":"Comercial",
-            "en":"Commercial"
-        },
+        "name" :"Comercial",
         "frontPage": "/frontPage/Comercial.png",
         "projects": [
             {
@@ -12,10 +9,7 @@
                 "name" : "Korean Grill",
                 "description" : {
                     "construccion": "150 M2",
-                    "descriptionProject": {
-                        "es": "Proyecto Conceptual",
-                        "en": "Conceptual Project"
-                    }                  
+                    "descriptionProject": "Proyecto Conceptual"
                 },
                 "frontPageDetails" : "/comercialImg/coreanImg/coreano1.jpg",
                 "imagesCarousel" : [
@@ -37,10 +31,7 @@
                 "name" : "Paradise",
                 "description" : {
                     "construccion": "20 M2",
-                    "descriptionProject" :{
-                        "es": "Intervención tipo RETAIL para la comercialización de productos que maneja la marca PARADISE.Se buscó en un local muy pequeño conjugar mobiliario e imagen de la marca con el gusto personal del cliente. Al tener un presupuesto limitado se buscó reutilizar materiales existentes dándoles toques de iluminación que lo hicieran sentir más acogedores.La paleta de material utiliza: fachaleta, porcelanato gris, carpintería enchapada imitación roble y detalles de iluminación."
-
-                    }
+                    "descriptionProject" :"Intervención tipo RETAIL para la comercialización de productos que maneja la marca PARADISE.Se buscó en un local muy pequeño conjugar mobiliario e imagen de la marca con el gusto personal del cliente. Al tener un presupuesto limitado se buscó reutilizar materiales existentes dándoles toques de iluminación que lo hicieran sentir más acogedores.La paleta de material utiliza: fachaleta, porcelanato gris, carpintería enchapada imitación roble y detalles de iluminación."
                 },
                 "frontPageDetails" : "/comercialImg/paradiseImg/paradise1.jpg",
                 "imagesCarousel" : [
