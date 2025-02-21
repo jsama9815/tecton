@@ -1,15 +1,27 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import { useRoute } from "vue-router";
-import { computed } from "vue";
+import { computed, ref, onMounted, onBeforeUnmount, watchEffect } from "vue";
 import navBar from "./components/navBar.vue";
+import phoneComponentMenu from "./components/phoneComponentMenu.vue";
 
 const route = useRoute();
 const currentRoute = computed(() => route.name);
+const screenWidth = ref(window.innerWidth);
+const updateScreenWidth = () => {
+  screenWidth.value = window.innerWidth;
+};
+onMounted(() => {
+  window.addEventListener('resize', updateScreenWidth);
+});
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateScreenWidth);
+});
+const isPhoneView = computed(() => screenWidth.value <= 1024);
 </script>
 
 <template>
-  <navBar :currentRoute = "currentRoute"/>
+  <component :is="isPhoneView ? phoneComponentMenu : navBar" :currentRoute="currentRoute"/>
   <RouterView />
 </template>
 

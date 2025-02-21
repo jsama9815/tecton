@@ -69,8 +69,8 @@ export default {
         },
         navBarStyles() {
             return {
-                // backgroundColor: this.currentRoute === 'home' ? 'rgba(0, 0, 0, 0.4)' : 'black',
-                // backdropFilter: this.currentRoute === 'home' ? 'blur(2px)' : 'none',
+                backgroundColor: this.currentRoute === 'home' && !this.isMenuVisible ? 'rgba(0, 0, 0, 0.4)' : 'black',
+                backdropFilter: this.currentRoute === 'home' && !this.isMenuVisible ? 'blur(2px)' : 'none',
             }
         }
     }, 
@@ -111,7 +111,7 @@ export default {
     position: fixed;
     width: 100%;
     height: 70px;
-    top: 0;
+    top:0;
     left: 0;
     z-index: 1000;
     background-color:black;
@@ -120,6 +120,17 @@ export default {
     justify-content: space-between;
     align-items: center;
     transition: background-color 0.3s ease-in-out;
+}
+.navBarMainBox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(2px);
+    z-index: -1;
 }
 .leftBox {
     display: flex;

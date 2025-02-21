@@ -13,11 +13,11 @@ const i18n = createI18n({
 
         es: {
             ...test.es, 
-            projects: projectData 
+            projects: projectData.es 
         }, 
         en: { 
             ...test.en,
-            projects: projectDataEn
+            projects: projectDataEn.en
         }
     }
 });

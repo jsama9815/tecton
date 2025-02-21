@@ -27,4 +27,18 @@ export default {
     width: 70%;
     height: 400px;
 }
+
+@media(max-width: 1024px) {
+  .map {
+      width: 100%;
+      height: 400px;
+  }
+
+}
+@media(max-width: 768px){ 
+  .map {
+    width: 100%;
+    height: 290px;
+  }
+}
 </style>

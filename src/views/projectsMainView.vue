@@ -7,7 +7,7 @@
                     :key="item.id"
                     @click="goToDetails( item.id )"
                 >
-                <h1 class="titlesOfImg"> {{ item.name }}</h1>
+                <h1 class="titlesOfImg"> {{ item.name[$i18n.locale] }}</h1>
                     <img :src="item.frontPage" 
                         :alt="`imagen de ${item.name}`"
                         loading="lazy"
@@ -76,5 +76,39 @@ h1 {
     color: white;
     font-family: 'Montserrat-Light';
     font-weight: lighter;
+}
+@media (min-width: 1440px) {
+    .cardsBoxContainer {
+        padding-top: 8%;
+    }
+}
+@media (max-width: 1024px) {
+    .cardsBoxContainer {
+        display: flex;
+        justify-content: center;
+        padding-top: 15%;
+    }
+    .cardsProyects {
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 20px 5px;
+    }
+    .imgCard {
+        height: 400px; 
+    }
+    .titlesOfImg {
+        font-weight: bold;
+    }
+}
+@media (max-width: 768px){ 
+    .cardsBoxContainer {
+        padding-top: 37%;
+    }
+    .cardsProyects {
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 20px 5px;
+    }
+    .imgCard {
+        height: 300px; 
+    }
 }
 </style>

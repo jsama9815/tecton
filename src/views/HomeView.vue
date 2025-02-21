@@ -56,4 +56,41 @@ export default {
     font-weight: 700;
     margin: 0;
 }
+@media (max-width: 1024px) { 
+    .informationBox {
+        bottom: 2%;
+        height: 20%;
+        width: 80%;
+    }
+    .paragraphLower{
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+    .paragraphUpper {
+        padding-bottom: 5px;
+        font-size: 35px;
+    }
+    .paragraphLower2{
+        font-size: 20px;
+        position: absolute;
+        right: 38%;
+    }
+}
+@media (max-width: 768px){
+    .informationBox {
+        bottom: 10%;
+        left: 5%;
+        height: 20%;
+        width: 90%;
+    }
+    .paragraphLower{
+        padding-bottom: 0px;
+    }
+    .paragraphUpper {
+        padding-bottom: 5px;
+    }
+    .paragraphLower2{
+        right: 8%;
+    }
+}
 </style>

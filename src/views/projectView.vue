@@ -2,7 +2,7 @@
     <div class="mainBoxDetails">
         <div class="detailsContainer">
             <div class="titleDetailBox">
-                <h1> {{ detailData.name }} </h1>
+                <h1> {{ getTranslatedName(detailData) }} </h1>
             </div>
             <div class="cardsDetailsMainContainer">
                 <div class="cardsDetailBox"
@@ -20,7 +20,7 @@
                         <h3>{{ project.name }}</h3>
                         <div class="paragraphDescriptionContainer">
                             <p>- {{ project.description.construccion }}</p>
-                            <p>- {{ project.description.descriptionProject }}</p>
+                            <p>- {{ getTranslatedDescription(project.description.descriptionProject) }}</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                     <img :src="selectedImages[currentIndex]" alt="imagen del proyecto">
                     <div class="imgDescription">
                         <p>{{ information.construccion }}</p>
-                        <p>{{ information.descriptionProject }}</p>
+                        <p>{{ getTranslatedDescription(information.descriptionProject) }}</p>
                     </div>
                     <svg-icon 
                         type="mdi" 
@@ -102,10 +102,30 @@ export default {
         },
         closeCarousel() {
             this.showCarousel = false
+        },
+        getTranslatedName(item) {
+            const locale = this.$i18n.locale;
+            if (item.name && typeof item.name === 'object') {
+                return item.name[locale] || item.name['en'] || 'Sin título';
+            }
+            return 'Sin título';
+        },
+        getTranslatedDescription(description) {
+            const locale = this.$i18n.locale;
+            if (description && typeof description === 'object') {
+                return description[locale] || description['en'] || 'Sin descripción'; 
+            }
+            return 'Sin descripción'; 
         }
     },
     mounted() {
         this.detailData = detailData.find(item => item.id == parseInt(this.id, 10)) || {};
+    },
+    watch: {
+        '$route.params.id': function(newId) {
+            this.id = newId; // Actualiza el id cuando cambia la ruta
+            this.loadProjectData(); // Recarga los datos según el nuevo id
+        }
     }
 }
 </script>
@@ -159,7 +179,6 @@ export default {
     display: flex;
     flex-direction: column;
     width: 90%;
-    /* height: 100px; */
 }
 .paragraphCardDetailContainer h3 {
     margin: 0;
@@ -245,5 +264,101 @@ export default {
     padding: 15px;
     border-radius: 8px;
     max-height: 200px;    
+}
+
+@media(max-width: 1024px){
+    .titleDetailBox {
+        top: 12%;
+    }
+    .cardsDetailsMainContainer {
+        top: 18%;
+        left: 4%;
+        grid-template-columns: repeat(2, 1fr) ;
+        gap: 0px 8px;
+    }
+    .paragraphCardDetailContainer h3 {
+        font-size: 1.4rem;
+    }
+    .paragraphCardDetailContainer p {
+        font-size: 1.1rem;
+    }
+    .cardsDetailBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        border-right: none;
+    }
+    .cardsDetailBox img {
+        width: 98%;
+    }
+    .carouselItems {
+        max-width: 90%;
+        max-height: 80%;
+        min-width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .carouselItems img {
+        width: 80%;
+        max-height: 55vh;
+    }
+    .buttonLeft {
+        left: 4%;
+    }
+    .buttonRight {
+        right: 4%;
+    }
+    .imgDescription {
+        font-size: 1.2rem;
+        width: 79%;
+        max-height: 450px;    
+    }
+    .closeButton {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width: 768px){
+    .titleDetailBox {
+        top: 15%;
+    }
+    .cardsDetailsMainContainer {
+        top: 22%;
+        left: 4%;
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 0px 8px;
+    }
+    .paragraphCardDetailContainer h3 {
+        font-size: 1.2rem;
+    }
+    .paragraphCardDetailContainer p {
+        font-size: 1rem;
+    }
+    .cardsDetailBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+        border-right: none;
+    }
+    .cardsDetailBox img {
+        width: 98%;
+    }
+    .carouselItems img {
+        width: 89%;
+        max-height: 30vh;
+    }
+    .buttonLeft {
+        left: -6%;
+    }
+    .buttonRight {
+        right: -6%;
+    }
+    .imgDescription {
+        font-size: 0.9rem;
+        width: 89%;
+        max-height: 400px;    
+    }
 }
 </style>

@@ -24,6 +24,15 @@ export default {
             number:"Phone Number",
             message:"Message",
             button: "Send"
+        },
+        titles: {
+            title1: "Commercial",
+            title2: "Corporate",
+            title3: "Maintenance",
+            title4: "Residential",
+            title5: "Healt",
+            title6: "Construction Engineering",
+            title7: "Intervencion Humana"
         }
     },
     es: {
@@ -51,6 +60,15 @@ export default {
             number:"Telefono",
             message:"Mensaje",
             button: "Enviar"
+        },
+        titles: {
+            title1: "Comercial",
+            title2: "Corporativo",
+            title3: "Mantenimiento",
+            title4: "Residencial",
+            title5: "Salud",
+            title6: "Ingenierias de la construccion",
+            title7: "Intervencion Humana"
         }
     }
 }

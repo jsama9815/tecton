@@ -25,6 +25,7 @@
                     <label for="name">{{ $t('contact.name') }}</label>
                     <input 
                         type="text"
+                        id="name"
                         v-model = 'formData.name'
                         :placeholder="$t('contact.name')"
                         required
@@ -32,6 +33,7 @@
                     <label for="e-mail">{{ $t('contact.email') }}</label>
                     <input 
                         type="email"
+                        id="email"
                         v-model = 'formData.email'
                         :placeholder="$t('contact.email')"
                         required
@@ -39,12 +41,14 @@
                     <label for="phone">{{ $t('contact.number') }}</label>
                     <input 
                         type="tel"
+                        id="phone"
                         v-model = 'formData.phone'
                         :placeholder="$t('contact.number')"
                         required
                     >
                     <label for="message">{{ $t('contact.message') }}</label>
                     <input 
+                        id="message"
                         v-model = 'formData.message'
                         :placeholder="$t('contact.message')"
                         required
@@ -122,7 +126,7 @@ export default {
 
 <style scoped>
 .itemsContactBox {
-    padding-top: 5%;
+    padding-top: 6%;
     display: flex;
     flex-direction: row;
 }
@@ -134,8 +138,7 @@ export default {
 .topInformationContact {
     display: flex;
     flex-direction: column;
-    padding: 5% 0 2% 15%;
-    
+    padding: 5% 0 2% 15%; 
 }
 .contactParagraph {
     font-size: 50px;
@@ -147,7 +150,7 @@ export default {
 }
 .bottomInformationContact {
     display: flex;
-    flex: row;
+    flex-direction: row;
     padding: 2% 0 0 15%;
     font-size: 20px;
     align-items: center;
@@ -162,7 +165,7 @@ export default {
 }
 .rigthItems {
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     top: 20%;
     align-items: center;
@@ -193,7 +196,7 @@ export default {
 }
 .buttonBox {
     position: absolute;
-    bottom: -25%;
+    bottom: 5%;
 }
 .buttonBox button {
     width: 150px;
@@ -208,5 +211,110 @@ export default {
 .buttonBox button:hover {
     background-color: #0a0a0a;
     color:white;
+}
+
+@media (min-width: 1440px) {
+    .buttonBox {
+        bottom: 20%;
+    }
+}
+@media(max-width: 1024px) {
+    .itemsContactBox {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftItems {
+        width: 98%;
+    }
+    .topInformationContact {
+        padding: 10% 0 2% 1%;
+        width: 90%; 
+    }
+    .bottomInformationContact {
+        padding: 4% 0 0% 1%;
+        width: 90%;
+    }
+    .mapsBox {
+        padding-left:1% ;
+        width: 100%;
+    }   
+    .formBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        padding-left: 10%;
+        width: 100%;
+    }
+    .formBox label {
+        padding-top: 5%;
+        padding-bottom: 1%;
+        font-size: 18px;
+    }
+    .formBox input{
+        width: 80%;
+        font-size: 15px;    
+    }
+    .bottomInformationContact {
+        padding: 2% 0 0 5%;
+        font-size: 30px;
+        width: 90%;
+    }
+    .buttonBox {
+        display: flex;
+        justify-content: flex-start; /* Alinea el botón a la derecha */
+        width: 100%; /* Asegura que ocupe todo el ancho del formulario */
+        padding-top: 5%; /* Espaciado entre los inputs y el botón */
+        position: static; /* Quita el posicionamiento absoluto */
+    }
+    
+}
+@media(max-width: 768px){
+    .itemsContactBox {
+        position: absolute;
+        top: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftItems {
+        width: 98%;
+    }
+    .topInformationContact {
+        width: 90%; 
+    }
+    .bottomInformationContact {
+        padding: 4% 0 4% 1%;
+        width: 90%;
+    }
+    .mapsBox {
+        padding-left:1% ;
+        width: 100%;
+    }
+    .formBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        width: 100%;
+    }
+    .formBox label {
+        padding-top: 5%;
+        padding-bottom: 1%;
+        font-size: 18px;
+    }
+    .formBox input{
+        width: 90%;
+        font-size: 15px;    
+    }
+    .buttonBox {
+        display: flex;
+        justify-content: flex-start; /* Alinea el botón a la derecha */
+        width: 100%; /* Asegura que ocupe todo el ancho del formulario */
+        margin-top: 15px; /* Espaciado entre los inputs y el botón */
+        position: static; /* Quita el posicionamiento absoluto */
+    }
+    .buttonBox button {
+        width: 140px;
+        height: 30px;
+        border-radius: 4%;
+    }
 }
 </style>

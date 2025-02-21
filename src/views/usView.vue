@@ -54,4 +54,53 @@ export default {
     font-family: 'Montserrat-Light';
     margin: 0;
 }
+@media (min-width: 1440px) {
+    .usParagraph {
+        font-size: 45px;
+    }
+    .textAboutUs {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 1024px) { 
+    .usMainBox {
+        height: 92.5vh;
+        padding-top: 100px;
+    }
+    .usItemsBox{
+        padding-top: 45px;
+    }
+    .usParagraph {
+        font-size: 55px;
+        padding: 0 0 4% 4%;
+    }
+    .imgBox{
+        height: 550px;
+    }
+    .textAboutUsBox {
+        width: 90%;
+        padding: 8% 0 0 4%;
+    }
+    .textAboutUs {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 768px){
+    .usMainBox {
+        height: 92.5vh;
+        padding-top: 60px;
+    }
+    .imgBox{
+        height: 250px;
+    }
+    .textAboutUsBox {
+        width: 90%;
+        padding: 8% 0 0 4%;
+    }
+    .textAboutUs {
+        font-size: 20px;
+    }
+}
 </style>

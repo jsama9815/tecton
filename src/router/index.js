@@ -4,7 +4,7 @@ import usView from '@/views/usView.vue'
 import contact from '@/views/contact.vue'
 import proyects from '@/views/projectsMainView.vue'
 import proyectsDetails from '@/views/projectView.vue'
-
+import phoneComponentMenu from '@/components/phoneComponentMenu.vue'
 
 
 const router = createRouter({
@@ -36,6 +36,11 @@ const router = createRouter({
       component: proyectsDetails,
       props: true
     },
+    {
+      path: '/test',
+      name: 'menu',
+      component: phoneComponentMenu
+    }
   ],
 })
 

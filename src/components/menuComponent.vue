@@ -2,13 +2,13 @@
   <div class="menuMainBox">
     <div class="menuBox">
         <ul class="menuList"> 
-            <li @click="goToProject(1)">Comercial</li>
-            <li @click="goToProject(2)">Corporativo</li>
-            <li @click="goToProject(3)">Mantenimiento</li>
-            <li @click="goToProject(4)">Residencial</li>
-            <li @click="goToProject(5)">Salud</li>
-            <li @click="goToProject(6)">Ingenierias de la construccion</li>
-            <li>Intervencion Urbana</li>
+            <li @click="goToProject(1)">{{ $t('titles.title1') }}</li>
+            <li @click="goToProject(2)">{{ $t('titles.title2') }}</li>
+            <li @click="goToProject(3)">{{ $t('titles.title3') }}</li>
+            <li @click="goToProject(4)">{{ $t('titles.title4') }}</li>
+            <li @click="goToProject(5)">{{ $t('titles.title5') }}</li>
+            <li @click="goToProject(6)">{{ $t('titles.title6') }}</li>
+            <!-- <li>Intervencion Urbana</li> -->
         </ul>
     </div>
   </div>
@@ -16,12 +16,6 @@
 
 <script>
 export default {
-    props: {
-        isMenuVisible: {
-        type: Boolean,
-        required: true
-        }
-    },
     methods: {
         goToProject(id) {
             this.$router.push({ name: 'proyect', params: { id } })
@@ -49,7 +43,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center; 
-    
 }
 .menuBox{
     position: absolute;
@@ -73,5 +66,12 @@ li {
 
 li:hover {
     text-decoration: underline;
+}
+@media (min-width: 1440px) {
+    .menuMainBox {
+    top: 10%;
+    left: 0;
+    height: 90vh;
+}
 }
 </style>
