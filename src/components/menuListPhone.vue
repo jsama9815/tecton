@@ -67,7 +67,7 @@ ul {
     }
     .menuPhone li {
         font-size: 25px;
-        padding-bottom: 28%;
+        padding-bottom: 20%;
     }
 }
 @media (max-width: 768px){ 
@@ -76,7 +76,7 @@ ul {
     }
     .menuPhone li {
         font-size: 25px;
-        padding-bottom: 20%;
+        padding-bottom: 18%;
     }
 
 }
