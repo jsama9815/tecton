@@ -57,6 +57,9 @@ export default {
     margin: 0;
 }
 @media (max-width: 1024px) { 
+    .mainBoxHome{
+        height: 90vh;
+    }
     .informationBox {
         bottom: 2%;
         height: 20%;
@@ -77,6 +80,9 @@ export default {
     }
 }
 @media (max-width: 768px){
+    .mainBoxHome{
+        height: 90vh;
+    }
     .informationBox {
         bottom: 10%;
         left: 5%;

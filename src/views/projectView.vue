@@ -268,7 +268,7 @@ export default {
 
 @media(max-width: 1024px){
     .titleDetailBox {
-        top: 12%;
+        top: 13%;
     }
     .cardsDetailsMainContainer {
         top: 18%;
@@ -310,7 +310,7 @@ export default {
         right: 4%;
     }
     .imgDescription {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 79%;
         max-height: 450px;    
     }
@@ -321,7 +321,7 @@ export default {
 }
 @media(max-width: 768px){
     .titleDetailBox {
-        top: 15%;
+        top: 16%;
     }
     .cardsDetailsMainContainer {
         top: 22%;
@@ -358,7 +358,7 @@ export default {
     .imgDescription {
         font-size: 0.9rem;
         width: 89%;
-        max-height: 400px;    
+        max-height: 430px;    
     }
 }
 </style>

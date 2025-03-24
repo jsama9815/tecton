@@ -46,6 +46,8 @@ ul {
     position: absolute;
     top: 16%;
     left: 3%;
+    text-decoration: none;
+
 }
 .menuPhone {
     display: flex;
@@ -55,9 +57,9 @@ ul {
 .menuPhone li {
     font-size: 20px;
     color: white;
-    padding-bottom: 18%;
+    padding-bottom: 12%;
     font-family: 'Montserrat-Light';
-    font-weight: lighter;
+    font-weight: lighter; 
 }
 @media (max-width: 1024px) {
     .phoneMenuMainBox {

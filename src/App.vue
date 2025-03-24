@@ -26,6 +26,13 @@ const isPhoneView = computed(() => screenWidth.value <= 1024);
 </template>
 
 <style>
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
 html, body {
   margin: 0;
   padding: 0;
