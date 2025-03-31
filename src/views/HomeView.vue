@@ -18,7 +18,7 @@ export default {
 <style scoped>
 
 .mainBoxHome{
-    background-image: url('/Portada.png');
+    background-image: url('/Portada.avif');
     height: 100vh;
     background-size: cover;
     background-position: center;

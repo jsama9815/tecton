@@ -40,7 +40,7 @@ export default {
 .imgBox{
     width: 100%;
     height: 350px;
-    background-image: url('/usPhoto.jpg');
+    background-image: url('/usPhoto.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
