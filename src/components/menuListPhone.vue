@@ -27,7 +27,7 @@ ul {
     margin: 0;
 }
 .phoneMenuMainBox {
-    background-image: url('/menu_foto.png');
+    background-image: url('/menu_foto.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

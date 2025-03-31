@@ -5,7 +5,7 @@
             "es": "Comercial",
             "en": "Commercial"
         },        
-        "frontPage": "/frontPage/Comercial.png",
+        "frontPage": "/frontPage/Comercial.avif",
         "projects": [
             {
                 "idProject": 101,
@@ -103,7 +103,7 @@
             "es":"Corporativo",
             "en": "Corporate"
         },               
-        "frontPage": "./frontPage/Coorporativo.png",
+        "frontPage": "./frontPage/Coorporativo.avif",
         "projects" : [
             {
                 "idProject": 201,
@@ -155,7 +155,7 @@
             "es": "Mantenimiento",
             "en": "Maintenance"
         },
-        "frontPage": "./frontPage/Mantenimiento.png" ,
+        "frontPage": "./frontPage/Mantenimiento.avif" ,
         "projects" : [
             {
                 "idProject": 301,
@@ -224,7 +224,7 @@
             "es":"Residencial", 
             "en": "Residential"
         },         
-        "frontPage": "./frontPage/Residencial.png",
+        "frontPage": "./frontPage/Residencial.avif",
         "projects":[
             {
                 "idProject": 401,
@@ -432,7 +432,7 @@
             "es":"Salud",     
             "en": "Health"
         },
-        "frontPage": "./frontPage/Salud.png",
+        "frontPage": "./frontPage/Salud.avif",
         "projects": [
             {
                 "idProject": 501,
@@ -480,6 +480,6 @@
             "es":"Ingenierias de la Construccion",
             "en": "Construction Engineering"
         },
-        "frontPage": "./frontPage/Ingeniería.png"  
+        "frontPage": "./frontPage/Ingeniería.avif"  
     }
 ]
