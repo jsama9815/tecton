@@ -195,8 +195,7 @@ export default {
     border-bottom: 2px solid #0a0a0a;
 }
 .buttonBox {
-    position: absolute;
-    bottom: 5%;
+    padding-top: 8%;
 }
 .buttonBox button {
     width: 150px;
@@ -261,10 +260,10 @@ export default {
     }
     .buttonBox {
         display: flex;
-        justify-content: flex-start; /* Alinea el botón a la derecha */
-        width: 100%; /* Asegura que ocupe todo el ancho del formulario */
-        padding-top: 5%; /* Espaciado entre los inputs y el botón */
-        position: static; /* Quita el posicionamiento absoluto */
+        justify-content: flex-start;
+        width: 100%; 
+        padding-top: 5%;
+        position: static;
     }
     
 }
@@ -306,10 +305,10 @@ export default {
     }
     .buttonBox {
         display: flex;
-        justify-content: flex-start; /* Alinea el botón a la derecha */
-        width: 100%; /* Asegura que ocupe todo el ancho del formulario */
-        margin-top: 15px; /* Espaciado entre los inputs y el botón */
-        position: static; /* Quita el posicionamiento absoluto */
+        justify-content: flex-start;
+        width: 100%; 
+        margin-top: 15px;
+        position: static;
     }
     .buttonBox button {
         width: 140px;

@@ -21,11 +21,11 @@ export default {
 <style scoped>
 .usMainBox {
     background-color: black;
-    height: 88vh;
-    padding-top: 80px;
+    height: 90vh;
+    padding-top: 70px;
 }
 .usItemsBox{
-    padding-top: 25px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
