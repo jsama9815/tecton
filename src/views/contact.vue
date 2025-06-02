@@ -314,6 +314,7 @@ export default {
         width: 140px;
         height: 30px;
         border-radius: 4%;
+        color: black;
     }
 }
 </style>
