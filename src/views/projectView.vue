@@ -327,7 +327,7 @@ export default {
 
     }
     .cardsDetailsMainContainer {
-        top: 23%;
+        top: 26%;
         left: 4%;
         grid-template-columns: repeat(1, 1fr) ;
         gap: 0px 0px;
