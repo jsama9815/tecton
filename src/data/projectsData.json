@@ -215,6 +215,29 @@
                     "/mantenimientoImg/VillaFlorence/villa8.jpg",
                     "/mantenimientoImg/VillaFlorence/villa9.jpg"
                 ]
+            },
+            {
+                "idProject": 304,
+                "name" : "Terraza Bar",
+                "description": {
+                    "construccion": "0 M2",
+                    "descriptionProject":{
+                        "es": "Ampliación del área original respetando el diseño decorativo existente. Se integraron nuevas estructuras, se extendieron las áreas de convivencia y se dio mantenimiento a las amenidades, creando un ambiente más amplio, cómodo y estético para los visitantes. Más espacio, mismo encanto.",
+                        "en":"Expansion of the original area while respecting the existing decorative design. New structures were integrated, common areas were extended, and amenities were maintained—creating a more spacious, comfortable, and visually appealing environment for visitors. More space, same charm."
+                    }                   
+                },
+                "frontPageDetails" : "/mantenimientoImg/terrazaBar/terraza9.avif",
+                "imagesCarousel" :[
+                    "/mantenimientoImg/terrazaBar/terraza1.avif",
+                    "/mantenimientoImg/terrazaBar/terraza2.avif",
+                    "/mantenimientoImg/terrazaBar/terraza3.avif",
+                    "/mantenimientoImg/terrazaBar/terraza4.avif",
+                    "/mantenimientoImg/terrazaBar/terraza5.avif",
+                    "/mantenimientoImg/terrazaBar/terraza6.avif",
+                    "/mantenimientoImg/terrazaBar/terraza7.avif",
+                    "/mantenimientoImg/terrazaBar/terraza8.avif",
+                    "/mantenimientoImg/terrazaBar/terraza9.avif"
+                ]
             }
         ]
     },
@@ -249,30 +272,6 @@
                     "/residencialImg/casaC/casaC8.jpg",
                     "/residencialImg/casaC/casaC9.jpg",
                     "/residencialImg/casaC/casaC10.jpg"
-                ]
-            },
-            {
-                "idProject": 402,
-                "name" : "Casas Mellizas Ca",
-                "description": {
-                    "construccion": "750 M2",
-                    "descriptionProject":{
-                        "es":"Casas Mellizas es un proyecto con alto nivel de complejidad, ya que fue el apropiarnos de un proyecto y obra de otro despacho, para resolverlo, replantearlo y lograr sacarle su mayor potencial.El proyecto consiste en 2 casas casi idénticas que son colindantes, sin embargo, al ser de 2 clientes con necesidades particulares tiene importantes diferencias tanto en funcionamiento como en áreas. Una gran diferencia es la utilización de la “azotea”; mientras una de ellas la deja como tal, la otra la vuelve una terraza - bar a la que se accede mediante una escalera escultórica dentro de un cubo de cristal transparente.La paleta de materiales utiliza: granito grisal, grandes ventanales, estructura metálica aparente, accesorios de baño negros y porcelanatos imitación mármol y granito.El resultado son 2 casas minimalistas con gran privacidad y vistas privilegiadas hacia la cañada.",
-                        "en":"Casas Mellizas is a project of high complexity, as we took over and reworked a project and construction from another firm, rethinking it to unlock its full potential. The project consists of 2 nearly identical houses that are adjacent. However, due to the particular needs of the two clients, there are significant differences in both function and space. One of the main differences is the use of the 'roof terrace'; while one house leaves it as is, the other turns it into a terrace-bar, accessible by a sculptural staircase inside a transparent glass cube. The material palette includes: Grisal granite, large windows, exposed metal structure, black bathroom accessories, and porcelain tiles that mimic marble and granite. The result is two minimalist houses with great privacy and privileged views of the canyon."
-
-                    }
-                },
-                "frontPageDetails" : "/residencialImg/casaMellizasCa/casaMellizaCa1.jpg",
-                "imagesCarousel" :[
-                    "/residencialImg/casaMellizasCa/casaMellizaCa1.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa2.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa3.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa4.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa5.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa6.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa7.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa8.jpg",
-                    "/residencialImg/casaMellizasCa/casaMellizaCa9.jpg"
                 ]
             },
             {
@@ -344,25 +343,6 @@
                 ]
             },
             {
-                "idProject": 406,
-                "name" : "Desarrollo Travertino",
-                "description": {
-                    "construccion": "4,500 M2",
-                    "descriptionProject": {
-                        "es" :"Desarrollo Travertino es el resultado al cuestionamiento de cómo mejorar la vivienda plurifamiliar en una colonia de gran tradición en la Ciudad de México: La Escandón.Una de las premisas más importantes para la imagen del edificio es la atemporalidad de sus fachadas, por lo cual la propuesta volumétrica y de materiales permite transparencia y evita el uso de materiales de moda.Los materiales propuestos son acero estructural, cristal templado y el más importante de todos: Mármol Travertino.Los departamentos al mismo tiempo tendrán la versatilidad de poder integrar las terrazas exteriores a sus espacios interiores, permitiendo el aprovechamiento de todos los m2 construibles y dando opción al usuario de configurar los espacios a cada estilo de vida",
-                        "en":"Desarrollo Travertino is the result of questioning how to improve multi-family housing in a historic neighborhood in Mexico City: La Escandón. One of the most important premises for the building’s image is the timelessness of its façades, which is why the volumetric proposal and materials used allow for transparency and avoid trendy materials. The proposed materials are structural steel, tempered glass, and the most important of all: Travertine marble. The apartments will also have the versatility to integrate the exterior terraces into their interior spaces, making full use of all the buildable square meters and giving the user the option to configure the spaces to fit their lifestyle."
-
-                    }
-                },
-                "frontPageDetails" : "/residencialImg/desarrolloTravertino/desarrolloTra1.jpg",
-                "imagesCarousel" :[
-                    "/residencialImg/desarrolloTravertino/desarrolloTra1.jpg",
-                    "/residencialImg/desarrolloTravertino/desarrolloTra2.jpg",
-                    "/residencialImg/desarrolloTravertino/desarrolloTra3.jpg",
-                    "/residencialImg/desarrolloTravertino/desarrolloTra4.jpg"
-                ]
-            },
-            {
                 "idProject": 407,
                 "name" : "Terraza F",
                 "description": {
@@ -399,29 +379,37 @@
                 },
                 "frontPageDetails" : "/residencialImg/terrazaPilares/terrazaPilates1.jpg",
                 "imagesCarousel" :[
-                    "/residencialImg/terrazaPilares/terrazaPilates1.jpg",
-                    "/residencialImg/terrazaPilares/terrazaPilates2.jpg",
-                    "/residencialImg/terrazaPilares/terrazaPilates3.jpg"
+                    "/residencialImg/terrazaPilares/terrazaPilates1.jpg"
                 ]
             },
             {
                 "idProject": 409,
-                "name" : "terraza Estudio JE",
+                "name" : "Casa Alessa",
                 "description": {
-                    "construccion": "80 M2",
+                    "construccion": "0 M2",
                     "descriptionProject": {
-                        "es":"Terraza Estudio JE responde a la necesidad de integrar un pent-house con su terraza privada; que, a pesar de colindar, no tienen una interconexión. Para generar una circulación entre el departamento y la terraza se planteó colocar una escalera de caracol escultórica que nos llevara del comedor a un family – estudio que a su vez funcionaria como vestíbulo para acceder a la terraza – asador.Las limitantes por reglamento de construcción en este proyecto es el tipo de cubierta que se puede utilizar el cuarto nuevo en la azotea; así que se usó un panel ligero con cualidades acústicas y térmicas, además de optimizar el espacio existente delimitado por una estructura metálica ya existente para techar el área del asador.La paleta de materiales utiliza: acero estructural, panel acústico / térmico, cerámica imitación madera, policarbonato, detalles de carpintería en oyamel y cubiertas de granito san Gabriel matizado.El resultado de este proceso de diseño con varias limitantes fue un proyecto que integra de manera acogedora en un solo inmueble 2 espacios áreas que no tenían el mismo lenguaje arquitectónico.",
-                        "en":"Terraza Estudio JE responds to the need to integrate a penthouse with its private terrace, which, despite being adjacent, had no interconnection. To create circulation between the apartment and the terrace, the idea was to place a sculptural spiral staircase that would take us from the dining room to a family/study area, which would also function as a lobby to access the terrace and barbecue. The construction regulation limitations for this project include the type of roof that can be used for the new room on the rooftop. Therefore, a lightweight panel with acoustic and thermal qualities was used, in addition to optimizing the existing space delimited by an already-existing metal structure to cover the barbecue area. The material palette includes: structural steel, acoustic/thermal panel, wood-look ceramic, polycarbonate, carpentry details in Oyamel wood, and San Gabriel matte granite covers. The result of this design process, with various limitations, was a project that seamlessly integrates two areas with different architectural languages into one cohesive space."
+                        "es":"De los 70s al diseño actual: una transformación total. Esta casa, originalmente construida en los años 70, fue completamente renovada con un estilo minimalista y elegante. Espacios amplios, luz natural, materiales modernos y una paleta neutra logran una atmósfera cálida y contemporánea, perfecta para el estilo de vida actual. Una renovación que respeta el pasado, pero se vive en el presente.",
+                        "en":"From the 70s to Modern Design: A Total Transformation. This house, originally built in the 1970s, has been completely renovated with a minimalist and elegant style. Spacious areas, natural light, modern materials, and a neutral palette create a warm and contemporary atmosphere—perfect for today is lifestyle. A renovation that honors the past, but is lived in the present."
+
                     }
                 },
-                "frontPageDetails" : "/residencialImg/terrazaJe/terrazaJe1.jpg",
+                "frontPageDetails" : "/residencialImg/casaAlessa/alessa1.jpg",
                 "imagesCarousel" :[
-                    "/residencialImg/terrazaJe/terrazaJe1.jpg",
-                    "/residencialImg/terrazaJe/terrazaJe2.jpg",
-                    "/residencialImg/terrazaJe/terrazaJe3.jpg",
-                    "/residencialImg/terrazaJe/terrazaJe4.jpg",
-                    "/residencialImg/terrazaJe/terrazaJe5.jpg",
-                    "/residencialImg/terrazaJe/terrazaJe6.jpg"
+                    "/residencialImg/casaAlessa/alessa1.jpg",
+                    "/residencialImg/casaAlessa/alessa2.jpg",
+                    "/residencialImg/casaAlessa/alessa3.jpg",
+                    "/residencialImg/casaAlessa/alessa4.jpg",
+                    "/residencialImg/casaAlessa/alessa5.jpg",
+                    "/residencialImg/casaAlessa/alessa6.jpg",
+                    "/residencialImg/casaAlessa/alessa7.jpg",
+                    "/residencialImg/casaAlessa/alessa8.jpg",
+                    "/residencialImg/casaAlessa/alessa9.jpg",
+                    "/residencialImg/casaAlessa/alessa10.jpg",
+                    "/residencialImg/casaAlessa/alessa11.jpg",
+                    "/residencialImg/casaAlessa/alessa12.jpg",
+                    "/residencialImg/casaAlessa/alessa13.jpg",
+                    "/residencialImg/casaAlessa/alessa14.jpg",
+                    "/residencialImg/casaAlessa/alessa15.jpg"
                 ]
             }
         ]  
@@ -480,6 +468,49 @@
             "es":"Ingenierias de la Construccion",
             "en": "Construction Engineering"
         },
-        "frontPage": "./frontPage/Ingeniería.avif"  
+        "frontPage": "./frontPage/Ingeniería.avif",
+        "projects": [
+            {
+                "idProject": 601,
+                "name": "Captadores Fluviales",
+                "description":{
+                    "construccion": "0 M2",
+                    "descriptionProject": {
+                        "es":"El agua de lluvia baja por canaletas y tuberías hasta un filtro de primeras lluvias, que retiene la mayor parte de contaminantes. Luego pasa por un filtro de hojas y entra al tanque de almacenamiento sin levantar los sedimentos del fondo. Ahí, un flotador dosifica cloro para desinfectar. Después se bombea a través de un tren de filtración y llega limpia al tinaco o cisterna, lista para usarse en casa.",
+                        "en": "Rainwater flows through gutters and pipes into a first-flush filter, which retains most of the contaminants. It then passes through a leaf filter and enters the storage tank without disturbing the sediments at the bottom. There, a float device dispenses chlorine for disinfection. Afterwards, it is pumped through a filtration system and reaches the rooftop tank or cistern, clean and ready for household use."
+                    }
+                },
+                "frontPageDetails" : "/ingenieriaConstruccionImg/pluvial/pluvial1.jpg",
+                "imagesCarousel" :[
+                    "/ingenieriaConstruccionImg/pluvial/pluvial1.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial2.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial3.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial4.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial5.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial6.jpg",
+                    "/ingenieriaConstruccionImg/pluvial/pluvial7.jpg"
+                ]
+            },
+                        {
+                "idProject": 602,
+                "name": "Mejoramiento de suelos",
+                "description":{
+                    "construccion": "3,000 M2",
+                    "descriptionProject": {
+                        "es":"Se realizó la preparación de 3,000 m² de terracería mediante excavación y colocación de capas compactadas de material, garantizando un suelo firme y nivelado. Esta base está lista para soportar la construcción de una nave industrial con total estabilidad estructural. Obra sólida desde el suelo, lista para grandes proyectos.",
+                        "en": "Rainwater flows through gutters and pipes into a first-flush filter, which retains most of the contaminants. It then passes through a leaf filter and enters the storage tank without disturbing the sediments at the bottom. There, a float device dispenses chlorine for disinfection. Afterwards, it is pumped through a filtration system and reaches the rooftop tank or cistern, clean and ready for household use."
+                    }
+                },
+                "frontPageDetails" : "/ingenieriaConstruccionImg/suelo/suelo5.avif",
+                "imagesCarousel" :[
+                    "/ingenieriaConstruccionImg/suelo/suelo1.avif",
+                    "/ingenieriaConstruccionImg/suelo/suelo2.avif",
+                    "/ingenieriaConstruccionImg/suelo/suelo3.avif",
+                    "/ingenieriaConstruccionImg/suelo/suelo4.avif",
+                    "/ingenieriaConstruccionImg/suelo/suelo5.avif",
+                    "/ingenieriaConstruccionImg/suelo/suelo6.avif"
+                ]
+            }
+        ]  
     }
 ]
