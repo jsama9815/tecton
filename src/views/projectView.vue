@@ -123,8 +123,8 @@ export default {
     },
     watch: {
         '$route.params.id': function(newId) {
-            this.id = newId; // Actualiza el id cuando cambia la ruta
-            this.loadProjectData(); // Recarga los datos según el nuevo id
+            this.id = newId; 
+            this.loadProjectData();
         }
     }
 }
@@ -245,8 +245,8 @@ export default {
 }
 .closeButton {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 15px;
+    right: 12px;
     background: red;
     color: white;
     border: none;
@@ -321,13 +321,14 @@ export default {
 }
 @media(max-width: 768px){
     .titleDetailBox {
-        top: 16%;
+        position: absolute;
+        top: 14%;
     }
     .cardsDetailsMainContainer {
-        top: 22%;
+        padding-top: 13%;
         left: 4%;
         grid-template-columns: repeat(1, 1fr) ;
-        gap: 0px 8px;
+        gap: 0px 0px;
     }
     .paragraphCardDetailContainer h3 {
         font-size: 1.2rem;
@@ -339,15 +340,16 @@ export default {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 70%;
+        height: 80%;
         border-right: none;
     }
     .cardsDetailBox img {
         width: 98%;
+        height: 100%;
     }
     .carouselItems img {
         width: 89%;
-        max-height: 30vh;
+        max-height: 100%;
     }
     .buttonLeft {
         left: -6%;
@@ -358,7 +360,7 @@ export default {
     .imgDescription {
         font-size: 0.9rem;
         width: 89%;
-        max-height: 430px;    
+        max-height: 440px;    
     }
 }
 </style>
