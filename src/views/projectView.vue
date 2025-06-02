@@ -322,10 +322,12 @@ export default {
 @media(max-width: 768px){
     .titleDetailBox {
         position: absolute;
-        top: 15%;
+        top: 16%;
+        padding-bottom: 10px;
+
     }
     .cardsDetailsMainContainer {
-        padding-top: 16%;
+        top: 18%;
         left: 4%;
         grid-template-columns: repeat(1, 1fr) ;
         gap: 0px 0px;
