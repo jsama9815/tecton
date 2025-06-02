@@ -8,7 +8,6 @@
             <li @click="goToProject(4)">{{ $t('titles.title4') }}</li>
             <li @click="goToProject(5)">{{ $t('titles.title5') }}</li>
             <li @click="goToProject(6)">{{ $t('titles.title6') }}</li>
-            <!-- <li>Intervencion Urbana</li> -->
         </ul>
     </div>
   </div>

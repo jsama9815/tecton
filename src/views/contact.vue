@@ -27,7 +27,6 @@
                         type="text"
                         id="name"
                         v-model = 'formData.name'
-                        :placeholder="$t('contact.name')"
                         required
                     >
                     <label for="e-mail">{{ $t('contact.email') }}</label>
@@ -35,7 +34,6 @@
                         type="email"
                         id="email"
                         v-model = 'formData.email'
-                        :placeholder="$t('contact.email')"
                         required
                     >
                     <label for="phone">{{ $t('contact.number') }}</label>
@@ -43,14 +41,12 @@
                         type="tel"
                         id="phone"
                         v-model = 'formData.phone'
-                        :placeholder="$t('contact.number')"
                         required
                     >
                     <label for="message">{{ $t('contact.message') }}</label>
                     <input 
                         id="message"
                         v-model = 'formData.message'
-                        :placeholder="$t('contact.message')"
                         required
                     >
                     <div class="buttonBox">
@@ -165,7 +161,6 @@ export default {
 }
 .rigthItems {
     display: flex;
-    /* position: absolute; */
     left: 50%;
     top: 20%;
     align-items: center;
