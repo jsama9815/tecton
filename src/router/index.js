@@ -33,7 +33,7 @@ const router = createRouter({
     {
       path: '/proyectos/:id',
       name: 'proyect',
-      component: () => import('@/views/ProjectView.vue'),
+      component: proyectsDetails,
       props: true
     },
     {

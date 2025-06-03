@@ -2,19 +2,26 @@
   <div class="menuMainBox">
     <div class="menuBox">
         <ul class="menuList"> 
-            <li @click="goToProject(1)">{{ $t('titles.title1') }}</li>
-            <li @click="goToProject(2)">{{ $t('titles.title2') }}</li>
-            <li @click="goToProject(3)">{{ $t('titles.title3') }}</li>
-            <li @click="goToProject(4)">{{ $t('titles.title4') }}</li>
-            <li @click="goToProject(5)">{{ $t('titles.title5') }}</li>
-            <li @click="goToProject(6)">{{ $t('titles.title6') }}</li>
+            <li 
+                v-for="item in items" 
+                :key="item.id"
+                @click="goToProject(item.id)"
+            >
+            {{ item.name[$i18n.locale] }}
+            </li>
         </ul>
     </div>
   </div>
 </template>
 
 <script>
+import proyectsData from '@/data/projectsData.json'
 export default {
+    data() {
+        return {
+            items: proyectsData,
+        }
+    },
     methods: {
         goToProject(id) {
             this.$router.push({ name: 'proyect', params: { id } })

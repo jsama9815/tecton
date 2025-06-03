@@ -22,7 +22,7 @@ const isPhoneView = computed(() => screenWidth.value <= 1024);
 
 <template>
   <component :is="isPhoneView ? phoneComponentMenu : navBar" :currentRoute="currentRoute"/>
-  <RouterView :key="$route.params.id"/>
+  <RouterView :key="$route.fullPath" />
 </template>
 
 <style>
