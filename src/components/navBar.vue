@@ -21,7 +21,7 @@
                     @mouseover="onMenuMouseOver"
                     @mouseleave="onMenuMouseLeave"
                 >
-                    <menuComponent ></menuComponent>
+                    <menuComponent @closeMenu="isMenuVisible = false" ></menuComponent>
                 </div>
             </div>
         </div>

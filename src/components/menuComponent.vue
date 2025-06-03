@@ -24,6 +24,7 @@ export default {
     },
     methods: {
         goToProject(id) {
+            this.$emit('closeMenu');
             this.$router.push({ name: 'proyect', params: { id } })
         }
     }
