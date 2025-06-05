@@ -97,6 +97,7 @@ export default {
             }
         },
         goToProjectsPage () {
+            this.isMenuVisible = false;
             this.$router.push('/proyectos');
         },
         toggleLanguage() {
