@@ -158,7 +158,30 @@
         "frontPage": "./frontPage/Mantenimiento.avif" ,
         "projects" : [
             {
-                "idProject": 301,
+                "idProject": 304,
+                "name" : "Terraza Bar (Cabuya)",
+                "description": {
+                    "construccion": "150 M2",
+                    "descriptionProject":{
+                        "es": "Ampliación del área original respetando el diseño decorativo existente. Se integraron nuevas estructuras, se extendieron las áreas de convivencia y se dio mantenimiento a las amenidades, creando un ambiente más amplio, cómodo y estético para los visitantes. Más espacio, mismo encanto.",
+                        "en":"Expansion of the original area while respecting the existing decorative design. New structures were integrated, common areas were extended, and amenities were maintained—creating a more spacious, comfortable, and visually appealing environment for visitors. More space, same charm."
+                    }                   
+                },
+                "frontPageDetails" : "/mantenimientoImg/terrazaBar/terraza9.avif",
+                "imagesCarousel" :[
+                    "/mantenimientoImg/terrazaBar/terraza1.avif",
+                    "/mantenimientoImg/terrazaBar/terraza2.avif",
+                    "/mantenimientoImg/terrazaBar/terraza3.avif",
+                    "/mantenimientoImg/terrazaBar/terraza4.avif",
+                    "/mantenimientoImg/terrazaBar/terraza5.avif",
+                    "/mantenimientoImg/terrazaBar/terraza6.avif",
+                    "/mantenimientoImg/terrazaBar/terraza7.avif",
+                    "/mantenimientoImg/terrazaBar/terraza8.avif",
+                    "/mantenimientoImg/terrazaBar/terraza9.avif"
+                ]
+            },
+            {
+                "idProject": 302,
                 "name" : "Adolfo Prieto 710",
                 "description": {
                     "construccion": "1500 M2 ",
@@ -176,7 +199,7 @@
                 ]
             },
             {
-                "idProject": 302,
+                "idProject": 303,
                 "name" : "Gabriel Mancera",
                 "description": {
                     "construccion": "500 M2",
@@ -194,7 +217,7 @@
                 ]
             },
             {
-                "idProject": 303,
+                "idProject": 304,
                 "name" : "Villa Florence",
                 "description": {
                     "construccion": "3,450 M2",
@@ -215,29 +238,6 @@
                     "/mantenimientoImg/VillaFlorence/villa8.jpg",
                     "/mantenimientoImg/VillaFlorence/villa9.jpg"
                 ]
-            },
-            {
-                "idProject": 304,
-                "name" : "Terraza Bar",
-                "description": {
-                    "construccion": "0 M2",
-                    "descriptionProject":{
-                        "es": "Ampliación del área original respetando el diseño decorativo existente. Se integraron nuevas estructuras, se extendieron las áreas de convivencia y se dio mantenimiento a las amenidades, creando un ambiente más amplio, cómodo y estético para los visitantes. Más espacio, mismo encanto.",
-                        "en":"Expansion of the original area while respecting the existing decorative design. New structures were integrated, common areas were extended, and amenities were maintained—creating a more spacious, comfortable, and visually appealing environment for visitors. More space, same charm."
-                    }                   
-                },
-                "frontPageDetails" : "/mantenimientoImg/terrazaBar/terraza9.avif",
-                "imagesCarousel" :[
-                    "/mantenimientoImg/terrazaBar/terraza1.avif",
-                    "/mantenimientoImg/terrazaBar/terraza2.avif",
-                    "/mantenimientoImg/terrazaBar/terraza3.avif",
-                    "/mantenimientoImg/terrazaBar/terraza4.avif",
-                    "/mantenimientoImg/terrazaBar/terraza5.avif",
-                    "/mantenimientoImg/terrazaBar/terraza6.avif",
-                    "/mantenimientoImg/terrazaBar/terraza7.avif",
-                    "/mantenimientoImg/terrazaBar/terraza8.avif",
-                    "/mantenimientoImg/terrazaBar/terraza9.avif"
-                ]
             }
         ]
     },
@@ -249,8 +249,38 @@
         },         
         "frontPage": "./frontPage/Residencial.avif",
         "projects":[
-            {
+                        {
                 "idProject": 401,
+                "name" : "Casa Alessa",
+                "description": {
+                    "construccion": "180 M2",
+                    "descriptionProject": {
+                        "es":"De los 70s al diseño actual: una transformación total. Esta casa, originalmente construida en los años 70, fue completamente renovada con un estilo minimalista y elegante. Espacios amplios, luz natural, materiales modernos y una paleta neutra logran una atmósfera cálida y contemporánea, perfecta para el estilo de vida actual. Una renovación que respeta el pasado, pero se vive en el presente.",
+                        "en":"From the 70s to Modern Design: A Total Transformation. This house, originally built in the 1970s, has been completely renovated with a minimalist and elegant style. Spacious areas, natural light, modern materials, and a neutral palette create a warm and contemporary atmosphere—perfect for today is lifestyle. A renovation that honors the past, but is lived in the present."
+
+                    }
+                },
+                "frontPageDetails" : "/residencialImg/casaAlessa/alessa1.jpg",
+                "imagesCarousel" :[
+                    "/residencialImg/casaAlessa/alessa1.jpg",
+                    "/residencialImg/casaAlessa/alessa2.jpg",
+                    "/residencialImg/casaAlessa/alessa3.jpg",
+                    "/residencialImg/casaAlessa/alessa4.jpg",
+                    "/residencialImg/casaAlessa/alessa5.jpg",
+                    "/residencialImg/casaAlessa/alessa6.jpg",
+                    "/residencialImg/casaAlessa/alessa7.jpg",
+                    "/residencialImg/casaAlessa/alessa8.jpg",
+                    "/residencialImg/casaAlessa/alessa9.jpg",
+                    "/residencialImg/casaAlessa/alessa10.jpg",
+                    "/residencialImg/casaAlessa/alessa11.jpg",
+                    "/residencialImg/casaAlessa/alessa12.jpg",
+                    "/residencialImg/casaAlessa/alessa13.jpg",
+                    "/residencialImg/casaAlessa/alessa14.jpg",
+                    "/residencialImg/casaAlessa/alessa15.jpg"
+                ]
+            },
+            {
+                "idProject": 402,
                 "name" : "Casa C",
                 "description": {
                     "construccion": "450 M2 ",
@@ -343,7 +373,7 @@
                 ]
             },
             {
-                "idProject": 407,
+                "idProject": 406,
                 "name" : "Terraza F",
                 "description": {
                     "construccion": "1000 M2",
@@ -367,7 +397,7 @@
                 ]
             },
             {
-                "idProject": 408,
+                "idProject": 407,
                 "name" : "Terraza Pilares",
                 "description": {
                     "construccion": "80 M2",
@@ -380,36 +410,6 @@
                 "frontPageDetails" : "/residencialImg/terrazaPilares/terrazaPilates1.jpg",
                 "imagesCarousel" :[
                     "/residencialImg/terrazaPilares/terrazaPilates1.jpg"
-                ]
-            },
-            {
-                "idProject": 409,
-                "name" : "Casa Alessa",
-                "description": {
-                    "construccion": "0 M2",
-                    "descriptionProject": {
-                        "es":"De los 70s al diseño actual: una transformación total. Esta casa, originalmente construida en los años 70, fue completamente renovada con un estilo minimalista y elegante. Espacios amplios, luz natural, materiales modernos y una paleta neutra logran una atmósfera cálida y contemporánea, perfecta para el estilo de vida actual. Una renovación que respeta el pasado, pero se vive en el presente.",
-                        "en":"From the 70s to Modern Design: A Total Transformation. This house, originally built in the 1970s, has been completely renovated with a minimalist and elegant style. Spacious areas, natural light, modern materials, and a neutral palette create a warm and contemporary atmosphere—perfect for today is lifestyle. A renovation that honors the past, but is lived in the present."
-
-                    }
-                },
-                "frontPageDetails" : "/residencialImg/casaAlessa/alessa1.jpg",
-                "imagesCarousel" :[
-                    "/residencialImg/casaAlessa/alessa1.jpg",
-                    "/residencialImg/casaAlessa/alessa2.jpg",
-                    "/residencialImg/casaAlessa/alessa3.jpg",
-                    "/residencialImg/casaAlessa/alessa4.jpg",
-                    "/residencialImg/casaAlessa/alessa5.jpg",
-                    "/residencialImg/casaAlessa/alessa6.jpg",
-                    "/residencialImg/casaAlessa/alessa7.jpg",
-                    "/residencialImg/casaAlessa/alessa8.jpg",
-                    "/residencialImg/casaAlessa/alessa9.jpg",
-                    "/residencialImg/casaAlessa/alessa10.jpg",
-                    "/residencialImg/casaAlessa/alessa11.jpg",
-                    "/residencialImg/casaAlessa/alessa12.jpg",
-                    "/residencialImg/casaAlessa/alessa13.jpg",
-                    "/residencialImg/casaAlessa/alessa14.jpg",
-                    "/residencialImg/casaAlessa/alessa15.jpg"
                 ]
             }
         ]  
@@ -474,7 +474,7 @@
                 "idProject": 601,
                 "name": "Captadores Fluviales",
                 "description":{
-                    "construccion": "0 M2",
+                    "construccion": "10,000 Instalaciones",
                     "descriptionProject": {
                         "es":"El agua de lluvia baja por canaletas y tuberías hasta un filtro de primeras lluvias, que retiene la mayor parte de contaminantes. Luego pasa por un filtro de hojas y entra al tanque de almacenamiento sin levantar los sedimentos del fondo. Ahí, un flotador dosifica cloro para desinfectar. Después se bombea a través de un tren de filtración y llega limpia al tinaco o cisterna, lista para usarse en casa.",
                         "en": "Rainwater flows through gutters and pipes into a first-flush filter, which retains most of the contaminants. It then passes through a leaf filter and enters the storage tank without disturbing the sediments at the bottom. There, a float device dispenses chlorine for disinfection. Afterwards, it is pumped through a filtration system and reaches the rooftop tank or cistern, clean and ready for household use."
